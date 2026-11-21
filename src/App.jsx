@@ -364,7 +364,7 @@ function Projects({ t }) {
 function Footer({ t }) {
   return (
     <footer className="page-container pb-8 pt-10">
-      <div className="footer-line flex flex-wrap items-center justify-between gap-4 border-t border-[var(--border)] pt-6">
+      <div className="footer-line flex flex-wrap items-center justify-between gap-4 border-t border-(--border) pt-6">
         <div>
           <p className="font-bold tracking-tight">{profile.name}<span className="text-accent">_</span></p>
         </div>
