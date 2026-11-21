@@ -142,7 +142,7 @@ function Header({ locale, setLocale, theme, setTheme, t }) {
           </button>
           <button
             type="button"
-            className="icon-button lg:hidden"
+            className="icon-button mobile-menu-button"
             aria-label={menuOpen ? t('closeMenu') : t('toggleMenu')}
             aria-expanded={menuOpen}
             aria-controls="mobile-navigation"
