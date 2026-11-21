@@ -341,6 +341,16 @@ function Projects({ t }) {
             </a>
           )}
         </div>
+        {project.image && (
+          <div className="project-image-wrap">
+            <img
+              src={project.image}
+              alt={title}
+              className="aspect-video w-full"
+              loading="lazy"
+            />
+          </div>
+        )}
         {project.youtubeId && (
           <div className="project-video-wrap">
             <iframe
@@ -355,7 +365,7 @@ function Projects({ t }) {
             />
           </div>
         )}
-        {!project.youtubeId && <div className="project-video-empty flex items-center gap-2 px-5 py-5 sm:px-8"><Code2 size={18} aria-hidden="true" />{t('noDemo')}</div>}
+       
       </div>
     </section>
   )

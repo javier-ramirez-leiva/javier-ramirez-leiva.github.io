@@ -88,6 +88,8 @@
     "jobNote": "Experience spanning embedded systems, CAD, and engineering tools.",
     "aboutIntro": "A little about me",
     "profileImageAlt": "Portrait of Javier Ramirez",
+    "project.cv_tag": "SELFHOSTED / WEB APPLICATION",
+    "project.cv_desc": "ComicVault is an open-source personal comic library and downloader. It helps you organize, search, and manage your digital comics in a clean, modern interface.",
     "project.cat_desc": "Electrical System Design within the 3DEXPERIENCE/CATIA portfolio: managing functional and logical architectures and automatically generating electrical schematics from design requirements.",
     "project.psr_desc": "A low-power perimeter surveillance radar with a control application for ONVIF cameras, supporting automated tracking and intrusion recording.",
     "project.air_desc": "French R&D project for a collaborative mobile robot that inspects aircraft during maintenance, using OpenCV image processing to help assess damage.",

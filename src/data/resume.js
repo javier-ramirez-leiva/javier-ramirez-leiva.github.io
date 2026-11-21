@@ -91,6 +91,15 @@ export const skills = [
 
 export const projects = [
   {
+    id: 'comicVault',
+    name: 'Comic Vault',
+    tagKey: 'project.cv_tag',
+    descriptionKey: 'project.cv_desc',
+    url: 'https://github.com/javier-ramirez-leiva/ComicVault',
+    image: 'https://github.com/javier-ramirez-leiva/ComicVault/raw/main/docs/screenshot.png',
+    number: '01',
+  },
+  {
     id: 'catia',
     name: 'CATIA · Electrical System Design',
     tagKey: 'project.cat_tag',
@@ -98,7 +107,7 @@ export const projects = [
     url: 'https://discover.3ds.com/catia-virtual-twin-electrical-systems-design-process-continuity',
     youtubeId: 'sUbjRKxbVrc',
     youtubeStart: 1796,
-    number: '01',
+    number: '02',
   },
   {
     id: 'radar',
@@ -107,7 +116,7 @@ export const projects = [
     descriptionKey: 'project.psr_desc',
     url: 'https://www.collinsaerospace.com/what-we-do/military-and-defense/targeting/targeting-and-c2/perimeter-surveillance-radar-500',
     youtubeId: '-S9HjxyDsYw',
-    number: '02',
+    number: '03',
   },
   {
     id: 'aircobot',
@@ -116,14 +125,14 @@ export const projects = [
     descriptionKey: 'project.air_desc',
     url: 'https://en.wikipedia.org/wiki/Air-Cobot',
     youtubeId: 'IEPr4rs4c8E',
-    number: '03',
+    number: '04',
   },
   {
     id: 'kart',
     nameKey: 'project.kart_title',
     tagKey: 'project.kart_tag',
     descriptionKey: 'project.kart_desc',
-    number: '04',
+    number: '05',
   },
 ]
 
