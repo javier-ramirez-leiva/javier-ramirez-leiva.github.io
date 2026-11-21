@@ -367,7 +367,6 @@ function Footer({ t }) {
       <div className="footer-line flex flex-wrap items-center justify-between gap-4 border-t border-[var(--border)] pt-6">
         <div>
           <p className="font-bold tracking-tight">{profile.name}<span className="text-accent">_</span></p>
-          <p className="muted mt-1 text-xs">{t('footerText')}</p>
         </div>
         <a href="#top" className="footer-back flex items-center gap-2 text-sm font-semibold">{t('backToTop')}<ArrowRight className="-rotate-90" size={16} aria-hidden="true" /></a>
       </div>
