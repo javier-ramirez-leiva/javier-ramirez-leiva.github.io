@@ -111,7 +111,7 @@ function Header({ locale, setLocale, theme, setTheme, t }) {
       <div className="page-container flex min-h-19 items-center justify-between gap-3">
         <a className="brand flex shrink-0 items-center gap-2.5" href="#top" onClick={() => setMenuOpen(false)} aria-label={`Javier Ramirez · ${t('homeLabel')}`}>
           <span className="brand-icon"><Terminal size={21} strokeWidth={2.5} aria-hidden="true" /></span>
-          <span className="brand-name hidden min-[390px]:inline">javier<span className="text-accent">.</span>dev</span>
+          <span className="brand-name hidden min-[390px]:inline">javier<span className="text-accent">-</span>ramirez<span className="text-accent">-</span>leiva</span>
         </a>
         <nav className="hidden items-center gap-4 xl:gap-6 lg:flex" aria-label={t('navLabel')}>
           {navigation.map(([id, key]) => <a key={id} href={`#${id}`} className="nav-link">{t(key)}</a>)}
@@ -179,7 +179,7 @@ function Hero({ locale, t }) {
       <div className="relative z-10 grid items-center gap-8 px-6 pb-7 pt-10 sm:px-10 sm:pb-9 sm:pt-12 lg:grid-cols-[minmax(0,1fr)_280px] lg:gap-10 lg:px-12 lg:py-16">
         <div className="min-w-0">
           <div className="hero-eyebrow inline-flex items-center gap-2"><span className="hero-led" aria-hidden="true" />{t('eyebrow')}</div>
-          <h1 id="page-title" className="hero-name mt-7">{firstName}<br /><span>{remainingNames.join(' ')}<span className="hero-period">.</span></span></h1>
+          <h1 id="page-title" className="hero-name mt-7">{firstName}<br /><span>{remainingNames.join(' ')}</span></h1>
           <p className="hero-role mt-5 flex items-center gap-2.5"><Code2 size={18} strokeWidth={1.9} aria-hidden="true" />{t('SofwareEngineer-Title')}</p>
           <p className="hero-intro mt-5 max-w-140">{t('heroIntro')}</p>
           <p className="hero-desc mt-3 max-w-140">{t('heroDescription')}</p>
@@ -366,7 +366,7 @@ function Footer({ t }) {
     <footer className="page-container pb-8 pt-10">
       <div className="footer-line flex flex-wrap items-center justify-between gap-4 border-t border-(--border) pt-6">
         <div>
-          <p className="font-bold tracking-tight">{profile.name}<span className="text-accent">_</span></p>
+          <p className="font-bold tracking-tight">{profile.name}</p>
         </div>
         <a href="#top" className="footer-back flex items-center gap-2 text-sm font-semibold">{t('backToTop')}<ArrowRight className="-rotate-90" size={16} aria-hidden="true" /></a>
       </div>
@@ -415,7 +415,13 @@ export default function App() {
             <p className="micro-label">// {t('contactLabel')}</p>
             <p className="mt-2 text-xl font-bold tracking-tight sm:text-2xl">{t('heroIntro')}</p>
           </div>
-          <a href={`mailto:${profile.email}`} className="primary-button shrink-0">{t('sendEmail')}<ArrowUpRight size={17} aria-hidden="true" /></a>
+          <div className="flex flex-wrap gap-4">
+            <a href={`mailto:${profile.email}`} className="primary-button shrink-0">{t('sendEmail')}<ArrowUpRight size={17} aria-hidden="true" /></a>
+            <a href={profile.linkedin} className="secondary-button shrink-0" target="_blank" rel="noopener noreferrer">
+              {t('connectLinkedin')}
+              <ArrowUpRight size={17} aria-hidden="true" />
+            </a>
+          </div>
         </div>
       </main>
       <Footer t={t} />
