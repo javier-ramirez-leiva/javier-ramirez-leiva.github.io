@@ -126,14 +126,7 @@ export const projects = [
     url: 'https://en.wikipedia.org/wiki/Air-Cobot',
     youtubeId: 'IEPr4rs4c8E',
     number: '04',
-  },
-  {
-    id: 'kart',
-    nameKey: 'project.kart_title',
-    tagKey: 'project.kart_tag',
-    descriptionKey: 'project.kart_desc',
-    number: '05',
-  },
+  }
 ]
 
 export const resumePdfs = {
