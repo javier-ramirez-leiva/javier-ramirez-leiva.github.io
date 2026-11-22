@@ -109,9 +109,9 @@ function Header({ locale, setLocale, theme, setTheme, t }) {
   return (
     <header className="site-header sticky top-0 z-50">
       <div className="page-container flex min-h-19 items-center justify-between gap-3">
-        <a className="brand flex shrink-0 items-center gap-2.5" href="#top" onClick={() => setMenuOpen(false)} aria-label={`Javier Ramirez · ${t('homeLabel')}`}>
+        <a className="brand flex shrink-0 items-center gap-2.5" href="#top" onClick={() => setMenuOpen(false)} aria-label={`${profile.name} · ${t('homeLabel')}`}>
           <span className="brand-icon"><Terminal size={21} strokeWidth={2.5} aria-hidden="true" /></span>
-          <span className="brand-name hidden min-[390px]:inline">javier<span className="text-accent">-</span>ramirez<span className="text-accent">-</span>leiva</span>
+          <span className="brand-name hidden min-[390px]:inline">{profile.name}</span>
         </a>
         <nav className="hidden items-center gap-4 xl:gap-6 lg:flex" aria-label={t('navLabel')}>
           {navigation.map(([id, key]) => <a key={id} href={`#${id}`} className="nav-link">{t(key)}</a>)}
@@ -180,7 +180,7 @@ function Hero({ locale, t }) {
         <div className="min-w-0">
           <div className="hero-eyebrow inline-flex items-center gap-2"><span className="hero-led" aria-hidden="true" />{t('eyebrow')}</div>
           <h1 id="page-title" className="hero-name mt-7">{firstName}<br /><span>{remainingNames.join(' ')}</span></h1>
-          <p className="hero-role mt-5 flex items-center gap-2.5"><Code2 size={18} strokeWidth={1.9} aria-hidden="true" />{t('SofwareEngineer-Title')}</p>
+          <p className="hero-role mt-5 flex items-center gap-2.5">{t('SofwareEngineer-Title')}</p>
           <p className="hero-intro mt-5 max-w-140">{t('heroIntro')}</p>
           <p className="hero-desc mt-3 max-w-140">{t('heroDescription')}</p>
           <div className="mt-8 flex flex-wrap items-center gap-3">

@@ -1,7 +1,7 @@
 // Structured CV data migrated from the original HTML (March 2024).
 // Update dates and career details here; localized descriptions are in translations.json.
 export const profile = {
-  name: 'Javier Ramirez Leiva',
+  name: 'Javier Ramirez',
   displayName: 'Javier Ramirez',
   email: 'javier.ramirez.leiva0@gmail.com',
   phoneDisplay: '+33 770407936',
