@@ -118,6 +118,15 @@ export const projects = [
     number: '01',
   },
   {
+    id: 'govern',
+    name: 'Dataiku Governance',
+    tagKey: 'project.g_tag',
+    descriptionKey: 'project.g_desc',
+    url: 'https://www.dataiku.com/product/govern',
+    youtubeId: 'zY5aDD2_ifM',
+    number: '02',
+  },
+  {
     id: 'catia',
     name: 'CATIA · Electrical System Design',
     tagKey: 'project.cat_tag',
@@ -125,7 +134,7 @@ export const projects = [
     url: 'https://discover.3ds.com/catia-virtual-twin-electrical-systems-design-process-continuity',
     youtubeId: 'sUbjRKxbVrc',
     youtubeStart: 1796,
-    number: '02',
+    number: '03',
   },
   {
     id: 'radar',
@@ -134,7 +143,7 @@ export const projects = [
     descriptionKey: 'project.psr_desc',
     url: 'https://www.collinsaerospace.com/what-we-do/military-and-defense/targeting/targeting-and-c2/perimeter-surveillance-radar-500',
     youtubeId: '-S9HjxyDsYw',
-    number: '03',
+    number: '04',
   },
   {
     id: 'aircobot',
@@ -143,7 +152,7 @@ export const projects = [
     descriptionKey: 'project.air_desc',
     url: 'https://en.wikipedia.org/wiki/Air-Cobot',
     youtubeId: 'IEPr4rs4c8E',
-    number: '04',
+    number: '05',
   }
 ]
 
