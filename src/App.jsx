@@ -163,6 +163,9 @@ function Header({ locale, setLocale, theme, setTheme, t }) {
             <a href={`mailto:${profile.email}`} className="mobile-nav-link" onClick={() => setMenuOpen(false)}>
               {t('nav_contact')} <ArrowUpRight size={15} aria-hidden="true" />
             </a>
+              <a href={profile.linkedin} className="mobile-nav-link" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>
+              LinkedIn<ArrowUpRight size={15} aria-hidden="true" />
+            </a>
           </div>
         </nav>
       )}
