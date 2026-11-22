@@ -35,15 +35,7 @@ export const experience = [
     descriptionKey: 'Text-Collins',
     detailKeys: Array.from({ length: 3 }, (_, index) => `Text-Collins_${index + 1}`),
     tags: ['C++', 'Qt', 'Radar', 'Linux'],
-  },
-  {
-    company: 'Digi International',
-    date: '02/2014 — 07/2014',
-    roleKey: 'SoftwareEngineer-Digi',
-    descriptionKey: 'Text-Digi',
-    detailKeys: ['Text-Digi_1', 'Text-Digi_2'],
-    tags: ['C', 'IoT', 'Ethernet', 'UART'],
-  },
+  }
 ]
 
 export const education = [
