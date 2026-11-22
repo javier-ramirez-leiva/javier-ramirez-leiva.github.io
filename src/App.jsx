@@ -346,7 +346,7 @@ function Projects({ t }) {
             <img
               src={project.image}
               alt={title}
-              className="aspect-video w-full"
+              className="block w-full h-auto"
               loading="lazy"
             />
           </div>

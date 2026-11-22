@@ -96,7 +96,7 @@ export const projects = [
     tagKey: 'project.cv_tag',
     descriptionKey: 'project.cv_desc',
     url: 'https://github.com/javier-ramirez-leiva/ComicVault',
-    image: 'https://github.com/javier-ramirez-leiva/ComicVault/raw/main/docs/screenshot.png',
+    image: 'https://github.com/javier-ramirez-leiva/ComicVault/raw/main/docs/mockups/device-mockups.png',
     number: '01',
   },
   {
