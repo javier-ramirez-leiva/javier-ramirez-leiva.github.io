@@ -205,7 +205,7 @@ function Hero({ locale, t }) {
       </div>
       <div className="hero-bottom relative z-10 grid gap-3 px-6 py-4 sm:grid-cols-3 sm:gap-4 sm:px-10 lg:px-12">
         <div className="hero-data-item"><MapPin size={15} aria-hidden="true" /><span>{t('basedIn')}</span><strong>{t('location')}</strong></div>
-        <div className="hero-data-item"><Globe2 size={15} aria-hidden="true" /><span>{t('languagesLabel')}</span><strong>EN / FR / ES</strong></div>
+        <div className="hero-data-item"><Globe2 size={15} aria-hidden="true" /><span>{t('languagesLabel')}</span><strong>EN / FR / ES/ IT</strong></div>
         <div className="hero-data-item"><Cpu size={15} aria-hidden="true" /><span>{t('currentFocus')}</span><strong>{t('focusTags')}</strong></div>
       </div>
     </section>
