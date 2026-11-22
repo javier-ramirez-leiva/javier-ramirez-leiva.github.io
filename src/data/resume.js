@@ -65,19 +65,37 @@ export const education = [
 export const skills = [
   {
     headingKey: 'ProgrammingLanguages-Section',
-    values: ['C', 'C++ / C++11', 'Python', 'Bash', 'VBScript', 'Perl', 'HTML', 'JavaScript', 'CSS'],
+    values: ['Java', 'TypeScript', 'Angular', 'Web','Python', 'C', 'C++'],
   },
   {
-    headingKey: 'SoftwareApplications-Section',
-    values: ['Visual Studio', 'Qt IDE', 'CMake', 'CATIA', 'Eclipse', 'MATLAB'],
+    headingKey: 'ToolsPlatforms-Section',
+    values: [
+      'Dataiku',
+      'Linux',
+      'Docker',
+      'PostgreSQL',
+      'Visual Studio',
+      'Qt Creator',
+      'CATIA',
+      'MATLAB',
+    ],
   },
   {
     headingKey: 'Technologies-Section',
-    values: ['skill.embedded', 'skill.realtime', 'Multicore', 'AUTOSAR', 'CAD', 'skill.systems'],
+    values: [
+      'AI',
+      'REST APIs',
+      'Databases',
+      'CAD',
+      'skill.embedded',
+      'skill.realtime',
+      'AUTOSAR',
+      'skill.systems',
+    ],
   },
   {
     headingKey: 'DevelopmentMethodologies-Section',
-    values: ['Agile', 'skill.vmodel', 'CI/CD', 'OOP', 'skill.patterns', 'TDD', 'skill.unit', 'skill.automated'],
+    values: ['Agile', 'Scrum', 'CI/CD', 'OOP', 'skill.patterns', 'TDD', 'skill.unit', 'skill.automated'],
   },
 ]
 
