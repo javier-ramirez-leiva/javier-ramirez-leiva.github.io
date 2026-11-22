@@ -12,13 +12,21 @@ export const profile = {
 
 export const experience = [
   {
-    company: 'Dassault Systèmes',
-    date: '08/2019',
+    company: 'Dataiku',
+    date: '08/2024',
     ongoing: true,
+    roleKey: 'SoftwareEngineer-Dataiku',
+    descriptionKey: 'Text-Dataiku',
+    detailKeys: Array.from({ length: 6 }, (_, index) => `Text-Dataiku_${index + 1}`),
+    tags: ['AI Governance', 'Full-Stack', 'Java', 'Angular', 'PostreSQL', 'MacOS', 'Linux', 'Dataiku', 'Vertex'],
+  },
+  {
+    company: 'Dassault Systèmes',
+    date: '08/2019  — 08/2024',
     roleKey: 'SoftwareEngineer-Dassault',
     descriptionKey: 'Text-Dassault',
     detailKeys: Array.from({ length: 6 }, (_, index) => `Text-Dassault_${index + 1}`),
-    tags: ['C++', 'tab.electricalEngineering', 'CATIA', 'CAD / PLM', 'Python', 'CI/CD'],
+    tags: ['C++', 'tab.electricalEngineering', 'CATIA', 'CAD / PLM', 'Windows', 'Linux', '3DEXPERIENCE'],
   },
   {
     company: 'Continental',
