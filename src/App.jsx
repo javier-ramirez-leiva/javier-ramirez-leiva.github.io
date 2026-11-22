@@ -427,14 +427,22 @@ export default function App() {
             <SkillPanel t={t} />
           </aside>
         </div>
-        <div className="bottom-cta surface mt-9 flex flex-col items-start justify-between gap-4 p-6 sm:flex-row sm:items-center sm:p-8">
-          <div>
-            <p className="micro-label">// {t('contactLabel')}</p>
-            <p className="mt-2 text-xl font-bold tracking-tight sm:text-2xl">{t('heroIntro')}</p>
-          </div>
-          <div className="flex flex-wrap gap-4">
-            <a href={`mailto:${profile.email}`} className="primary-button shrink-0">{t('sendEmail')}<ArrowUpRight size={17} aria-hidden="true" /></a>
-            <a href={profile.linkedin} className="secondary-button shrink-0" target="_blank" rel="noopener noreferrer">
+        <div className="bottom-cta surface mt-9 flex flex-col items-start justify-between gap-4 p-6 sm:flex-row sm:items-center sm:p-8 lg:grid lg:grid-cols-[1fr_auto] lg:items-center lg:gap-x-6 lg:gap-y-2">
+          <p className="micro-label lg:col-span-2">// {t('contactLabel')}</p>
+          <p className="mt-2 text-xl font-bold tracking-tight sm:text-2xl lg:mt-0">
+            {t('heroIntro')}
+          </p>
+          <div className="flex flex-wrap gap-4 lg:justify-self-end">
+            <a href={`mailto:${profile.email}`} className="primary-button shrink-0">
+              {t('sendEmail')}
+              <ArrowUpRight size={17} aria-hidden="true" />
+            </a>
+            <a
+              href={profile.linkedin}
+              className="secondary-button shrink-0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {t('connectLinkedin')}
               <ArrowUpRight size={17} aria-hidden="true" />
             </a>
