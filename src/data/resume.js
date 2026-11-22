@@ -18,7 +18,7 @@ export const experience = [
     roleKey: 'SoftwareEngineer-Dassault',
     descriptionKey: 'Text-Dassault',
     detailKeys: Array.from({ length: 6 }, (_, index) => `Text-Dassault_${index + 1}`),
-    tags: ['C++', 'CATIA', 'CAD / PLM', 'Python', 'CI/CD'],
+    tags: ['C++', 'tab.electricalEngineering', 'CATIA', 'CAD / PLM', 'Python', 'CI/CD'],
   },
   {
     company: 'Continental',

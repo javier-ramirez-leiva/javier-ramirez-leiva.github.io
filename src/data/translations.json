@@ -109,7 +109,8 @@
     "skill.systems": "Systems engineering",
     "skill.patterns": "Design patterns",
     "skill.unit": "Unit testing",
-    "skill.automated": "Automated testing"
+    "skill.automated": "Automated testing",
+    "tab.electricalEngineering": "Electrical Engineering"
   },
   "fr": {
     "About-Text": "Je suis ingénieur logiciel et j’aime concevoir des solutions fiables qui ont un impact positif. Mon expérience en France et en Espagne couvre l'AI, CAO, l’industrie automobile et la sécurité. Je travaille actuellement chez Dataiku en France.",
@@ -221,7 +222,8 @@
     "skill.systems": "Ingénierie système",
     "skill.patterns": "Patrons de conception",
     "skill.unit": "Tests unitaires",
-    "skill.automated": "Tests automatisés"
+    "skill.automated": "Tests automatisés",
+    "tab.electricalEngineering": "Génie électrique"
   },
   "es": {
     "About-Text": "Soy ingeniero de software y me apasiona desarrollar soluciones fiables que generen un impacto positivo. Mi experiencia internacional en Francia y España abarca la IA, el CAD, el sector de la automoción y la seguridad. Actualmente trabajo en Dataiku en Francia.",
@@ -333,6 +335,7 @@
     "skill.systems": "Ingeniería de sistemas",
     "skill.patterns": "Patrones de diseño",
     "skill.unit": "Pruebas unitarias",
-    "skill.automated": "Pruebas automatizadas"
+    "skill.automated": "Pruebas automatizadas",
+    "tab.electricalEngineering": "Ingeniería eléctrica"
   }
 }

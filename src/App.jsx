@@ -255,7 +255,11 @@ function Experience({ t }) {
             </div>
             <p className="body-copy mt-3">{t(job.descriptionKey)}</p>
             <div className="mt-4 flex flex-wrap gap-1.5">
-              {job.tags.map((tag) => <span className="technology-tag" key={tag}>{tag}</span>)}
+              {job.tags.map((tag) => (
+                <span className="technology-tag" key={tag}>
+                  {t(tag)}
+                </span>
+              ))}
             </div>
             <details className="experience-details mt-5" open={index === 0 ? true : undefined}>
               <summary className="details-summary"><span className="flex items-center gap-2"><span className="details-glyph" aria-hidden="true">+</span>{t('details')}</span><ChevronDown size={16} className="details-chevron" aria-hidden="true" /></summary>
