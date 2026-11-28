@@ -13,7 +13,7 @@ export const profile = {
 export const experience = [
   {
     company: 'Dataiku',
-    date: '08/2024',
+    date: '10/2024',
     ongoing: true,
     roleKey: 'SoftwareEngineer-Dataiku',
     descriptionKey: 'Text-Dataiku',
@@ -22,7 +22,7 @@ export const experience = [
   },
   {
     company: 'Dassault Systèmes',
-    date: '08/2019  — 08/2024',
+    date: '08/2019  — 10/2024',
     roleKey: 'SoftwareEngineer-Dassault',
     descriptionKey: 'Text-Dassault',
     detailKeys: Array.from({ length: 6 }, (_, index) => `Text-Dassault_${index + 1}`),
